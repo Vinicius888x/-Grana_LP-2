@@ -1,0 +1,5 @@
+br/ufrn/maisgrana/model/TipoTransacao.class
+br/ufrn/maisgrana/app/Main.class
+br/ufrn/maisgrana/model/Transacao.class
+br/ufrn/maisgrana/controller/DashboardController.class
+br/ufrn/maisgrana/service/TransacaoService.class
