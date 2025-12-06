@@ -13,7 +13,7 @@
    <top>
       <VBox alignment="CENTER" prefHeight="150.0" prefWidth="350.0" style="-fx-background-color: #2E7D32;" BorderPane.alignment="CENTER">
          <children>
-            <Label text="BALANÇO ATUAL" textFill="WHITE">
+            <Label text="BALANÇO ATUAL" textFill="WHITE" fx:id="labelBalanco">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
@@ -73,7 +73,7 @@
       </VBox>
    </center>
    <bottom>
-      <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="350.0" style="-fx-background-color: #1B5E20;" text="+ ADICIONAR NOVA TRANSAÇÃO" textFill="WHITE" BorderPane.alignment="CENTER">
+      <Button onAction="#onAdicionarClick" mnemonicParsing="false" prefHeight="50.0" prefWidth="350.0" style="-fx-background-color: #1B5E20;" text="+ ADICIONAR NOVA TRANSAÇÃO" textFill="WHITE" BorderPane.alignment="CENTER">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>

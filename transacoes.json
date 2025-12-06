@@ -1,0 +1,9 @@
+[
+  {
+    "descricao": "Teste Codespace",
+    "valor": 50.0,
+    "tipo": "RECEITA",
+    "categoria": "Teste",
+    "data": "2025-12-06"
+  }
+]
